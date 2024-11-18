@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './pages/css/index.css';
 import App from './pages/App.jsx';
+import Profile from './pages/profile-card'
 // Import necessary components for routing
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 //routing system configuration
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
+  { path: '/profile-card', element: <Profile /> },
   // Add more routes as needed
 ])
 

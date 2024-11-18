@@ -4,6 +4,7 @@ import './css/App.css';
 function App() {
   return (
     <div className="App">
+      <a href="/profile-card">Profile Component</a>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
