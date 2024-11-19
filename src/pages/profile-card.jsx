@@ -1,9 +1,9 @@
-import ProfileCard from '../wip/profile-card-component'
-
+import ProfileCard from './wip/profile-card-component'
+import './css/profile.css';
 function Profile(){
     // define variables
     let info = {
-        profileImage: "https://cloudinary.com/150",
+        profileImage: "https://res.cloudinary.com/dehoobuso/image/upload/v1731377347/full-cloud-tasks/dog10.jpg.jpg",
         firstName: "John",
         lastName: "Doe",
         email: "johndoe@example.com",
