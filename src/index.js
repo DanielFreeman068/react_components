@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './pages/css/index.css';
 import App from './pages/App.jsx';
-import Profile from './pages/profile-card'
+import Profile from './pages/profile-card.jsx'
 // Import necessary components for routing
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
