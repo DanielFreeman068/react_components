@@ -3,7 +3,7 @@ import style from './ProfileCard.css'
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-function ProfileCard({firstName, lastName, email, profileImage, socialLinks}) {
+function ProfileCard({firstName, lastName, email, profileImage, socialLinks, profileBio}) {
     const [isOpen, setIsOpen] = useState(false);
     const iconStyle = {
         width: "25px",
@@ -14,10 +14,10 @@ function ProfileCard({firstName, lastName, email, profileImage, socialLinks}) {
     return (
         <div className="profile-background" style={style}>
             <div className="profile-card">
-                {!profileImage ? (<img src="https://static.vecteezy.com/system/resources/previews/021/548/095/original/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg" alt="profile" className="profile-image" />) : (<img src={profileImage} alt="profile picture" className="profile-image" />)
-                }
+                {!profileImage ? (<img src="https://static.vecteezy.com/system/resources/previews/021/548/095/original/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg" alt="profile" className="profile-image" />) : (<img src={profileImage} alt="profile picture" className="profile-image" />)}
                 <h1 className="profile-header">{firstName} {lastName}</h1>
                 <a href={`mailto:${email}`} className="profile-email">{email}</a>
+                {profileBio ? (<p>{profileBio}</p>) : null}
                 <h3 className="profile-contact" onClick={() => setIsOpen(!isOpen)} style={{ cursor: 'pointer' }}>Get into Contact</h3>
 
                 <div className={`social-icons ${isOpen ? 'active' : ''}`} style={{ 
