@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './pages/css/index.css';
 import App from './pages/App.jsx';
 import Profile from './pages/profile-card.jsx'
+import Footer from './pages/footer.jsx'
 // Import necessary components for routing
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -10,6 +11,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/profile-card', element: <Profile /> },
+  { path: '/footer', element: <Footer /> },
   // Add more routes as needed
 ])
 

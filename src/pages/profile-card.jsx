@@ -1,4 +1,4 @@
-import ProfileCard from './components/profile-card/profile-card-component'
+import ProfileCard from './components/profile-card/Profile-card-component.jsx'
 function Profile(){
     // define variables
     let info = {
