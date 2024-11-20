@@ -16,6 +16,18 @@ function Profile(){
     }
     return(
         <>
+    <a href="/" style={{
+        position: 'absolute', 
+        top: '10px', 
+        left: '10px', 
+        backgroundColor: '#007BFF', 
+        color: '#fff', 
+        padding: '10px 15px', 
+        borderRadius: '5px', 
+        textDecoration: 'none', 
+        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+        }}>Return to Library</a>
+        
         <ProfileCard firstName = {info.firstName} lastName = {info.lastName} email = {info.email} profileImage = {info.profileImage} socialLinks = {info.socialLinks}/>
         </>
     )
