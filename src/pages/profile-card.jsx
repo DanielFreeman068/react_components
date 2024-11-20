@@ -1,4 +1,4 @@
-import ProfileCard from './wip/profile-card-component'
+import ProfileCard from './components/profile-card/profile-card-component'
 function Profile(){
     // define variables
     let info = {

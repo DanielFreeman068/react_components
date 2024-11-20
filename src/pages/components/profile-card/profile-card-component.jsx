@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import style from '../css/ProfileCard.css';
+import style from './ProfileCard.css'
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
