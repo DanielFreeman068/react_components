@@ -100,6 +100,17 @@ footer {
     object-fit: contain;
 }
 
+.topPage a {
+    color:#0077B5;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.topPage a:hover {
+    color:#81ceeb;
+    text-decoration: underline;
+}
+
 .foot {
     text-align: center;
     padding: 1.5rem;

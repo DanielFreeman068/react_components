@@ -17,7 +17,8 @@ function ProfileCard({firstName, lastName, email, profileImage, socialLinks, pro
                 {!profileImage ? (<img src="https://static.vecteezy.com/system/resources/previews/021/548/095/original/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg" alt="profile" className="profile-image" />) : (<img src={profileImage} alt="profile picture" className="profile-image" />)}
                 <h1 className="profile-header">{firstName} {lastName}</h1>
                 <a href={`mailto:${email}`} className="profile-email">{email}</a>
-                {profileBio ? (<p>{profileBio}</p>) : null}
+                <hr/>
+                {profileBio ? (<p className='profileBio'>{profileBio}</p>) : null}
                 <h3 className="profile-contact" onClick={() => setIsOpen(!isOpen)} style={{ cursor: 'pointer' }}>Get into Contact</h3>
 
                 <div className={`social-icons ${isOpen ? 'active' : ''}`} style={{ 
