@@ -12,7 +12,6 @@ function Footer(){
             home: "/",
             testimonials: "/testimonials",
             contact: "/profile-card",
-            topPage: "#topPage",
         },
         socialLinks: {
             github: "https://github.com/johndoe",
