@@ -23,7 +23,7 @@ body {
     max-width: 500px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     padding: 1rem;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 hr{
     width:calc(100% - 80px)
