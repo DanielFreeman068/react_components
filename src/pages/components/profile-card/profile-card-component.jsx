@@ -21,7 +21,6 @@ function ProfileCard({firstName, lastName, email, profileImage, socialLinks, pro
                 <hr/>
                 {profileBio ? (<p className='profileBio'>{profileBio}</p>) : null}
                 <h3 className="profile-contact" onClick={() => setIsOpen(!isOpen)} style={{ cursor: 'pointer' }}>Get into Contact</h3>
-
                 <div className={`social-icons ${isOpen ? 'active' : ''}`} style={{ 
                         display: "flex", 
                         alignItems: "center", 

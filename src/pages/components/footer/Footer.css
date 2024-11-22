@@ -96,6 +96,14 @@ footer {
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
 }
 
+a{
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+}
+
 .social-imgs img {
     width: 24px;
     height: 24px;
