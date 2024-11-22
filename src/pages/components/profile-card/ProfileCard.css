@@ -1,14 +1,8 @@
 /* GENERAL STYLING */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
-    margin: 0;
-    padding: 1rem;
-    font-family: system-ui, -apple-system, sans-serif;
 }
 
 

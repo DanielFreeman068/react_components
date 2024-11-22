@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import style from './ProfileCard.css'
+import './ProfileCard.css'
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -12,7 +12,7 @@ function ProfileCard({firstName, lastName, email, profileImage, socialLinks, pro
         cursor: 'pointer',
     };
     return (
-        <div className="profile-background" style={style}>
+        <div className="profile-background">
             <div className="profile-card">
                 {!profileImage ? (<img src="https://static.vecteezy.com/system/resources/previews/021/548/095/original/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg" alt="profile" className="profile-image" />) : (<img src={profileImage} alt="profile picture" className="profile-image" />)}
                 <h1 className="profile-header">{firstName} {lastName}</h1>
@@ -51,7 +51,6 @@ function ProfileCard({firstName, lastName, email, profileImage, socialLinks, pro
                 </div>
             </div>
         </div>
-        
     )
 }
 
