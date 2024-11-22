@@ -1,51 +1,37 @@
-# React Components Project
+# React Components Library
 
-This project is a React-based application using various libraries and tools to enhance functionality, testing, and routing.
+## Overview
+A comprehensive React component library with routing and utility components.
 
----
+## Prerequisites
+- Node.js (v18+)
+- npm (v9+)
 
-## 📋 **Libraries Used**
+## Installation
+```bash
+git clone [your-repo-url]
+cd react_components
+npm install
 
-### Core Dependencies
-- **React** (`react`, `react-dom`)  
-  - A JavaScript library for building user interfaces.
-  - Version: ^18.3.1
+# Scripts and Dependencies
 
-- **React Router DOM** (`react-router-dom`)  
-  - Provides declarative routing for React applications.
-  - Version: ^6.28.0
+## 📜 Scripts
 
-- **React Icons** (`react-icons`)  
-  - A library for including popular icons in React apps.
-  - Version: ^5.3.0
-
-### Testing Dependencies
-- **@testing-library/react**  
-  - Simplifies writing and testing React components.
-  - Version: ^13.4.0
-
-- **@testing-library/jest-dom**  
-  - Provides custom Jest matchers for testing DOM nodes.
-  - Version: ^5.17.0
-
-- **@testing-library/user-event**  
-  - Utilities to simulate user interactions with your components.
-  - Version: ^13.5.0
-
-### Additional Tools
-- **React Scripts** (`react-scripts`)  
-  - Configures and scripts to simplify React app development and build processes.
-  - Version: 5.0.1
-
-- **Web Vitals** (`web-vitals`)  
-  - Measures and reports essential metrics for web performance.
-  - Version: ^2.1.4
+- **`npm run dev`**: Start the development server.  
+- **`npm run build`**: Create a production build.  
+- **`npm test`**: Run the test suite.  
+- **`npm run eject`**: Eject from the Create React App configuration (irreversible).  
 
 ---
 
-## 🚀 **How to Start the Project**
+## 📦 Dependencies
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd react_components
+- **React**: 18.3.1  
+- **React Router DOM**: 6.28.0  
+- **React Icons**: 5.3.0  
+
+### 🧪 Testing Libraries
+
+- **Jest DOM**  
+- **React Testing Library**  
+- **User Event**
