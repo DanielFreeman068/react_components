@@ -12,6 +12,7 @@ A comprehensive React component library with routing and utility components.
 git clone [your-repo-url]
 cd react_components
 npm install
+```
 
 # Scripts and Dependencies
 
