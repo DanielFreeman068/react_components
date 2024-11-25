@@ -1,14 +1,7 @@
-/* GENERAL STYLING */
-body {
-    text-align: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
-}
-
-
 /* PROFILE CARD STYLING */
 .profile-background {
-    background-color: lavenderblush;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     border-radius: clamp(15px, 4vw, 25px);
