@@ -3,6 +3,7 @@ import Responsive_Gallery from './components/gallery/Responsive-Gallery.jsx'
 function Gallery(){
     // define variables
     let imageInfo = {
+        webName: 'compName',
         imageOne: {
             pictureName: 'Cloud',
             pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1730419145/samples/cloud1.jpg',
