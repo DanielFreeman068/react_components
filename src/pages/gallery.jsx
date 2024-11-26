@@ -3,26 +3,36 @@ import Responsive_Gallery from './components/gallery/Responsive-Gallery.jsx'
 function Gallery(){
     // define variables
     let imageInfo = {
-        webName: 'compName',
+        webName: 'Cloudinary',
         imageOne: {
-            pictureName: 'Cloud',
-            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1730419145/samples/cloud1.jpg',
-            altText: 'Cloud',
+            pictureName: 'Petey',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731704049/full-cloud-tasks/perry.jpg.jpg',
+            altText: 'Petey',
         },
         imageTwo: {
-            pictureName: 'Cloud',
-            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1730419145/samples/cloud1.jpg',
-            altText: 'Cloud',
+            pictureName: 'Toonces',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731474538/full-cloud-tasks/dog6.jpg.jpg',
+            altText: 'Toonces',
         },
         imageThree: {
-            pictureName: 'Cloud',
-            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1730419145/samples/cloud1.jpg',
-            altText: 'Cloud',
+            pictureName: 'Tucker',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731392524/full-cloud-tasks/dog5.jpg.jpg',
+            altText: 'Tucker',
         },
         imageFour: {
-            pictureName: 'Cloud',
-            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1730419145/samples/cloud1.jpg',
-            altText: 'Cloud',
+            pictureName: 'Fat Cat',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731377347/full-cloud-tasks/dog10.jpg.jpg',
+            altText: 'Fat Cat',
+        },
+        imageFive: {
+            pictureName: 'Tonka',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731377129/full-cloud-tasks/dog2.jpg.jpg',
+            altText: 'Tonka',
+        },
+        imageSix: {
+            pictureName: 'Santa',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731279313/full-cloud-tasks/santaballs.png.jpg',
+            altText: 'Santa',
         },
     }
     return(
