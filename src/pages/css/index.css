@@ -1,12 +1,8 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100vh;
   font-family: system-ui, -apple-system, sans-serif;
-}
-body {
-  background: lavender;
-  min-height: 100vh;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
 }
 .library-container {
   width: 90%;
