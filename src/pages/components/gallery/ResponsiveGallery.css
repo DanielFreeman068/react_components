@@ -35,7 +35,7 @@
 .gallery-image-wrapper {
     position: relative;
     width: 100%;
-    padding-top: 75%; /* 4:3 aspect ratio */
+    padding-top: 75%;
     overflow: hidden;
 }
 
