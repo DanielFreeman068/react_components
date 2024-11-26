@@ -1,4 +1,4 @@
-import Footer_Theme from './components/footer/Footer-Theme.jsx'
+import FooterTheme from './components/footer/FooterTheme.jsx'
 
 function Footer(){
     // define variables
@@ -34,7 +34,7 @@ function Footer(){
         textDecoration: 'none', 
         boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
         }}>Return to Library</a>
-        <Footer_Theme logoImage = {info.logoImage} routes = {info.routes} socialLinks = {info.socialLinks} webName = {info.webName} address = {info.address}/>
+        <FooterTheme logoImage = {info.logoImage} routes = {info.routes} socialLinks = {info.socialLinks} webName = {info.webName} address = {info.address}/>
         </>
     )
 }

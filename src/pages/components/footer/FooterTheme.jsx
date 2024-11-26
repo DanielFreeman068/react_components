@@ -1,8 +1,8 @@
-import './Footer.css'
+import './FooterTheme.css'
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-function Footer_Theme({logoImage, routes, socialLinks, webName, address}) {
+function FooterTheme({logoImage, routes, socialLinks, webName, address}) {
     const iconStyle = {
         width: "25px",
         height: "25px",
@@ -62,4 +62,4 @@ function Footer_Theme({logoImage, routes, socialLinks, webName, address}) {
     )
 }
 
-export default Footer_Theme
+export default FooterTheme

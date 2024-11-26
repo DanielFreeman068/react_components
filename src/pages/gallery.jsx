@@ -1,4 +1,4 @@
-import Responsive_Gallery from './components/gallery/Responsive-Gallery.jsx'
+import ResponsiveGallery from './components/gallery/ResponsiveGallery.jsx'
 
 function Gallery(){
     // define variables
@@ -48,7 +48,7 @@ function Gallery(){
         textDecoration: 'none', 
         boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
         }}>Return to Library</a>
-        <Responsive_Gallery imageInfo = {imageInfo}/>
+        <ResponsiveGallery imageInfo = {imageInfo}/>
         </>
     )
 }

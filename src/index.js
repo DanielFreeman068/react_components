@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './pages/App.jsx';
-import Profile from './pages/profile-card.jsx'
+import Profile from './pages/profile.jsx'
 import Footer from './pages/footer.jsx'
 import Gallery from './pages/gallery.jsx'
 // Import necessary components for routing
