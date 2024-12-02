@@ -38,6 +38,31 @@ function Gallery(){
             pictureName: 'Santa',
             pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731279313/full-cloud-tasks/santaballs.png.jpg',
             altText: 'Santa',
+        },
+        {
+            pictureName: 'Whiskers',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731531872/full-cloud-tasks/buttercup.jpg.jpg',
+            altText: 'Whiskers',
+        },
+        {
+            pictureName: 'Rex',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731531667/full-cloud-tasks/johnson.jpg.jpg',
+            altText: 'Rex',
+        },
+        {
+            pictureName: 'Max',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731447549/full-cloud-tasks/WIN_20240801_13_15_46_Pro.jpg.jpg',
+            altText: 'Max',
+        },
+        {
+            pictureName: 'Mr. Cage',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731393063/full-cloud-tasks/dailydrip.png.png',
+            altText: 'Nico',
+        },
+        {
+            pictureName: 'Puffy',
+            pictureURL: 'https://res.cloudinary.com/dehoobuso/image/upload/v1731377448/full-cloud-tasks/dog1.jpg.jpg',
+            altText: 'Puffy',
         }
     ];
 
