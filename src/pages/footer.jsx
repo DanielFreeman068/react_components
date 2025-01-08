@@ -15,7 +15,7 @@ function Footer(){
         },
         socialLinks: {
             github: "https://github.com/johndoe",
-            insatagram: "https://instagram.com/johndoe",
+            instagram: "https://instagram.com/johndoe",
             facebook: "https://facebook.com/johndoe",
             twitter: "https://twitter.com/johndoe",
             linkedIn: "https://linkedIn.com/johndoe",
