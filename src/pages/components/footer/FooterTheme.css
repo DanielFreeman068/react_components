@@ -110,14 +110,15 @@ a:hover{
     object-fit: contain;
 }
 
-.topPage a {
+.topPage button {
+    background-color: transparent;
+    border: 1px solid transparent;
     color:#0077B5;
-    text-decoration: none;
     transition: all .5s ease-in-out;
     font-size:1.5em;
 }
 
-.topPage a:hover {
+.topPage button:hover {
     color:#81ceeb;
     text-decoration: underline;
 }

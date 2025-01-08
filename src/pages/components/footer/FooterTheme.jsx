@@ -54,7 +54,7 @@ function FooterTheme({logoImage, routes, socialLinks, webName, address}) {
                     </div>
                 </div>
                 <div className="foot">
-                    <h3 className="topPage"><a onClick={() => window.scrollTo({ top: 0 })}>Top of Page</a></h3>
+                    <h3 className="topPage"><button onClick={() => window.scrollTo({ top: 0 })}>Top of Page</button></h3>
                     All Rights Reserved | ©2024 {webName}
                 </div>
             </footer>
