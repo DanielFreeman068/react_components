@@ -2,9 +2,6 @@ import React from 'react';
 import './ResponsiveGallery.css';
 
 const ResponsiveGallery = ({ websiteName, imageInfo }) => {
-    // Gallery header
-    const galleryHeader = imageInfo && imageInfo.length > 0 ? `${imageInfo[0].webName} Gallery` : 'Image Gallery';
-    
     return (
         <div className="gallery-container">
             {/* Gallery Header */}
